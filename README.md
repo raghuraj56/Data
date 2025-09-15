@@ -1,13 +1,32 @@
-## 📊 Visualizations
+Sales Data Analysis using MySQL
+📌 Overview
 
-### 1. Sales Trend Over Time
-![Sales Trend](sales_trend.png)
+This project performs a detailed analysis of sales transactions using MySQL.
+The dataset contains customer details, transaction history, and product information.
 
-### 2. Sales by Category
-![Sales by Category](sales_by_category.png)
+The goal is to uncover:
 
-### 3. Profit by Region
-![Profit by Region](profit_by_region.png)
+Monthly revenue and order trends
 
-### 4. Correlation Heatmap
-![Correlation Heatmap](correlation_heatmap.png)
+Peak sales periods
+
+Customer buying patterns (AOV, repeat purchases, engagement)
+
+Top-performing months
+
+Most loyal customers (highest orders)
+
+High-value customers (biggest spenders)
+
+🛠️ Tech Stack
+
+Database: MySQL 8+
+
+Language: SQL
+
+Dataset: Transactional sales data (CSV → MySQL table)
+
+📂 Project Structure
+├── sales_analysis.sql   # Full MySQL script
+├── README.md            # Project documentation
+└── data/                # (Optional) Folder for dataset CSV
